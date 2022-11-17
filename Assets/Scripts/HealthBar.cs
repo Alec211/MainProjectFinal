@@ -5,7 +5,8 @@ using UnityEngine;
 public class HealthBar : MonoBehaviour
 {
     [SerializeField] Transform barValue;
-
+    
+    //Greg Dev stuff
     public void SetBarState(int current, int max)
     {
         //Casting so the value work properly

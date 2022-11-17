@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // FixedUpdate is used for in game physics 
+    // Credit to Chris' Tutorials on youtube
     private void FixedUpdate()
     {
         // If movement input is anything other than zero, you can move
@@ -67,6 +68,8 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+    //Chris' tutorials
     private bool AbleToMove(Vector2 direction)
     {
         if(direction != Vector2.zero){

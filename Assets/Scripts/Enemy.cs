@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
+    //Tracking on enemy from Greg Dev Stuff
+
     [SerializeField] Transform attackTarget;
     [SerializeField] float speed;
     [SerializeField] int healthPoints = 25;

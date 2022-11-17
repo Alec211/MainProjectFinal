@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class TimerManager : MonoBehaviour
 {
+    //Credit to Turbo Makes Games on youtube
+    //Not currently enabled in the game
     public static TimerManager instance;
     public Text timeCounter;
     private TimeSpan timePlaying;

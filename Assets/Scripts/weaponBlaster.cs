@@ -34,6 +34,7 @@ public class weaponBlaster : MonoBehaviour
 
     }
 
+    //Greg dev stuff
     private void Attack()
     {
         timer = timeToAttack;
@@ -56,6 +57,7 @@ public class weaponBlaster : MonoBehaviour
 
     }
 
+    //Greg dev stuff
     private void DamageDealt(Collider2D[] colliders)
     {
         for(int i = 0; i < colliders.Length; i++){
